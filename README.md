@@ -1,10 +1,8 @@
 # MERN-Full-Stack-Boilerplate
-MERN Full Stack Boilerplate. Mysql database using sequelize as a connection to the database.(http://docs.sequelizejs.com/) Node as a backend and React as a Front end.
-To Start using this repo you must have npm and node and yarn and react installed.
-To install node go to https://nodejs.org/en/ and follow the instrustions. 
-To install run the command npm install yarn -g in to your terminal. 
-The next thing to install should mysql workbench https://dev.mysql.com/downloads/workbench/.
-Then go to the file is .env.local and change the password and scheme file aka database name. 
+MERN Full Stack Boilerplate. Mysql database using sequelize as a connection to the database.(http://docs.sequelizejs.com/) Node as a backend and React as a Front end. To Start using this repo you must have npm and node and yarn and react installed. To install node go to https://nodejs.org/en/ and follow the instructions. To install run the command npm install yarn -g in to your terminal. The next thing to install should mysql workbench https://dev.mysql.com/downloads/workbench/. 
+* create a .env.local file in the root directory similar to below, but with your database info:
+```
+
 ```
 DB_HOST=127.0.0.1
 DB_USERNAME=root
